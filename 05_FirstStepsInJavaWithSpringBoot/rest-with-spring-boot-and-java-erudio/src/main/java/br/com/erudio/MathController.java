@@ -17,8 +17,22 @@ public class MathController {
 	public Double Sum(
 			@PathVariable(value = "numberOne") String numberOne,
 			@PathVariable(value = "numberTwo") String numberTwo
-			) {
-		return 1D;
+			) throws Exception {
+		
+		if(!isNumeric(numberOne) || !isNumeric(numberTwo)) {
+			throw new Exception();
+		}
+		return convertToDouble(numberOne) + convertToDouble(numberTwo);
+	}
+
+	private Double convertToDouble(String stringNumber) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private boolean isNumeric(String stringNumbe) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 	
 
