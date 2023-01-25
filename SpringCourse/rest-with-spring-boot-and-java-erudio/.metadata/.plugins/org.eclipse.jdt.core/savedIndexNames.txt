@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+C:\Users\wmps\OneDrive - GFT Technologies SE\Desktop\Curso_SpringBoot\rest-with-spring-boot-and-java-erudio\SpringCourse\rest-with-spring-boot-and-java-erudio\.metadata\.plugins\org.eclipse.jdt.core
